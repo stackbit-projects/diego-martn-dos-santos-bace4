@@ -1,0 +1,38 @@
+title: dash
+author: GitHub User
+email: miguel-gonzalez@gmx.de
+description: >
+  Write an awesome description for your new site here. You can edit this line in
+  _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+show_excerpts: false
+paginate: 1
+paginate_path: '/blog/page:num/'
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+dash:
+  date_format: '%b %-d, %Y'
+  disqus:
+    shortname: bitbrain-github-io
+  social_links:
+    - url: 'https://twitter.com/bitbrain_'
+      icon: twitter-square
+      color: cyan
+    - url: 'https://bitbrain.itch.io'
+      icon: itch-io
+      color: red
+    - url: 'https://github.com/bitbrain'
+      icon: github-square
+      color: purple
+  show_author: true
+  animation_speed: 50
+theme: jekyll-dash
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - liquid-md5
+  - jekyll/tagging
+baseurl: ''
+url: ''
